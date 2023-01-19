@@ -3,7 +3,7 @@ package com.in28minutes.rest.webservices.restfulwebservices.user;
 import jakarta.persistence.Entity;
 
 import java.time.LocalDate;
-@Entity
+
 public class User {
     private int id;
     private String name;
