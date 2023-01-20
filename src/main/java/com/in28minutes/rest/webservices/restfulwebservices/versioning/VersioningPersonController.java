@@ -38,6 +38,6 @@ public class VersioningPersonController {
 
     @GetMapping(path = "/person/accept", produces = "application/vnd.company.app-v1+json")
     public PersonV1 getFirstVersionOfPersonRequestAcceptHeader(){
-        return new PersonV1("Bob Charlie");
+        return new PersonV1("Bobby Charlie");
     }
 }
